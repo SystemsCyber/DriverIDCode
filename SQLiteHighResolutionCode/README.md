@@ -42,9 +42,10 @@ This folder contains scripts to process raw driving data into a high-resolution 
      4. Adjusts all VBOX timestamps accordingly.
    - Most subjects achieved a **0.999 correlation** between VBOX and CAN speed data.
    - Subjects with **missing or low-quality VBOX data**: **G1S15, G1S16, G2S13, G3S13**.
-
-![Before Timestamp Correction](InitialSpeedComparison.png)
-![After Timestamp Correction](SpeedComparisonAfterShift.png)
+   - Speed Comparison Before Shift
+      - ![Before Timestamp Correction](InitialSpeedComparison.png)
+   - Speed Comparison After Shift
+      - ![After Timestamp Correction](SpeedComparisonAfterShift.png)
 
 ## Usage Instructions
 1. Ensure all raw data files are available.
