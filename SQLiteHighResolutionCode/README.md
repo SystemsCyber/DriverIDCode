@@ -76,7 +76,7 @@ This summarizes the correlation results for timestamp adjustments in the ORNL Dr
 - **S06:** Correlation: 0.99984, Shift: -0.37 s
 - **S07:** Correlation: 0.99975, Shift: -0.13 s
 - **S08:** Correlation: 0.99987, Shift: 42.76 s
-- **S09:** Correlation: 0.74942, Shift: -10.58 s
+- **S09:** Correlation: 0.74942, Shift: -10.58 s (Lower Correlation due to very small portion of VBOX Data Cut towards the end)
 - **S10:** Correlation: 0.99965, Shift: -3.16 s
 - **S11:** Correlation: 0.99972, Shift: -4.85 s
 - **S12:** Correlation: 0.99959, Shift: -2.19 s
@@ -100,6 +100,9 @@ This summarizes the correlation results for timestamp adjustments in the ORNL Dr
 - **S11:** Correlation: 0.99977, Shift: 1.19 s
 - **S12:** Correlation: 0.99982, Shift: 2.08 s
 - **S13:** *NO USABLE VBOX Data*
+- **S14:** Correlation: 0.99972, Shift: -1.89 s
+- **S15:** Correlation: 0.99982, Shift: -5.48 s
+- **S16:** Correlation: 0.99984, Shift: 3.48 s
 
 ## Group 3
 - **S01:** Correlation: 0.99983, Shift: 1.89 s
