@@ -1,7 +1,7 @@
 # DownsampledCode Data Processing
 
 ## Overview
-The **DownsampledCode** folder contains R scripts designed to process high-resolution driving data from various sources (VBOX, CANbus, and heart rate) into a single downsampled CSV. The scripts align and synchronize the data, calculating the mean for each 1-second interval. Additional derived metrics, such as **cumulative_distance_meters** and **cyberattack_active**, are also generated.
+The **DownsampledCode** folder contains R scripts designed to process high-resolution driving data from various sources (VBOX, CANbus, and heart rate) into a single downsampled CSV. The scripts align and synchronize the data, calculating the mean for each 1-second interval. Additional derived metrics, such as **cumulative_distance_meters** and **cyberattack_active**, are also generated. Survey answers from each participant are included. The survey questions are from the MMDBQ (Modified Manchester Driver Behavior Questionnaire) and are used to generate GRiPS (General Risk Propensity Scale). 
 
 ### Key Features:
 - Downsamples high-resolution data to 1-second intervals.
