@@ -43,7 +43,7 @@ The script will create a file named `DriverID#G#TruckCape.kml` in the same direc
 
 Ex Image from DriverIDG1S01:
 
-
+![KMLImage](DriverIDG1S01KML.png)
 
 ## Required Raw Data Files
 To generate the processed datasets, the following raw data files are required for each participant:
