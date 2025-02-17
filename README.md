@@ -41,7 +41,7 @@ python3 GenerateKLMFile.py
 
 The script will create a file named `DriverID#G#TruckCape.kml` in the same directory. Open this file with **Google Maps, Earth, etc** to visualize the GPS data and route of the drives.
 
-Ex:
+Ex Image from DriverIDG1S01:
 
 
 
