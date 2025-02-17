@@ -60,13 +60,8 @@ The **DownsampledCode** folder contains R scripts designed to process high-resol
 
 1. Ensure all necessary high-resolution CSV and SQLite files are present.
 2. Run the scripts in the order specified.
-3. The final output will be a single CSV with synchronized, downsampled data for all participants.
-
-## Notes
-- Data alignment is achieved by maximizing correlation between VBOX and CANbus speed data.
-- Timestamp adjustments are necessary for files recorded with different logging devices.
-- Survey data enhances the dataset with behavioral insights.
-
-**End of Documentation**
+3. Adjust the file directories in the files.
+4. Run the GenerateCSVs scripts first. Then the DriverID Cyberattack Wrangling.R. Then the Qualtrics Survey Data Wrangling.R. Lastly run the Save DriverID_data_wrangled.R last.
+5. The final output will be a single CSV with synchronized, downsampled data for all participants.
 
 
