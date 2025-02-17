@@ -5,9 +5,10 @@ This repository contains the code used to generate the ORNL Driver Identificatio
 1. **High-resolution SQLite database**
 2. **High-resolution CSV files**
 3. **Downsampled CSV files** (includes additional variables and survey answers)
+4. **KML file generation** (for GPS visualization in Google Earth)
 
 ## Repository Structure
-The repository is organized into three main folders, each containing the necessary scripts to generate the corresponding data files:
+The repository is organized into four main folders, each containing the necessary scripts to generate the corresponding data files:
 
 ### 1. **CSVHighResolutionCode/**
 - Contains scripts to generate **high-resolution CSV files** from raw data.
@@ -23,6 +24,26 @@ The repository is organized into three main folders, each containing the necessa
 - Contains scripts to generate **downsampled CSV files**.
 - The downsampled data includes additional computed variables (e.g., **distance traveled**, **cyberattack active**) and **survey responses**.
 - Contains README with more info
+
+### 4. **KMLGeneratorCode/**
+- Contains the Python script to generate a **KML file** for GPS visualization.
+- The script reads longitude and latitude from the **sqlite** database.
+- Outputs a **KML file** that can be opened with **Google Maps, Earth, etc**.
+- Script file: `GenerateKLMFile.py`
+
+## KML File Generation
+To generate a KML file from the SQLite database, use the script `GenerateKLMFile.py`. This script reads the `SparkfunGPSData` table and extracts the `longitude` and `latitude` values.
+
+### **Usage**
+```bash
+python3 GenerateKLMFile.py
+```
+
+The script will create a file named `DriverID#G#TruckCape.kml` in the same directory. Open this file with **Google Maps, Earth, etc** to visualize the GPS data and route of the drives.
+
+Ex:
+
+
 
 ## Required Raw Data Files
 To generate the processed datasets, the following raw data files are required for each participant:
@@ -45,5 +66,7 @@ where:
 ## CAN Data Decoding Requirement
 The **J1939 digital annex** is required to decode the CAN data. It must be converted into a **JSON format** following the instructions in this repository:
 - [pretty_j1939 Repository](https://github.com/SystemsCyber/pretty_j1939)
+
+
 
 
