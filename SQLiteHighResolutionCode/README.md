@@ -63,9 +63,9 @@ This folder contains scripts to process raw driving data into a high-resolution 
 4. The final output after all files have been executed for all 50 participants will be 50 **high-resolution SQLite databases** containing driving data. These will be in 4 tables, SparkfunGPSData, SPNData, HeartData, and VBOXData.
 
 ## VBOX GPS Speed to CANbus Wheel-Based Vehicle Speed Correlations for all subjects:
-# Correlation Analysis for ORNL Driver ID Data
+# Correlation Analysis for Driver ID Data
 
-This summarizes the correlation results for timestamp adjustments in the ORNL Driver ID datasets. The correlations were calculated using the `FixVBOXTimestamps.py` script, with the maximum correlation and the corresponding shift (in seconds) for the VBOX GPS Speed to match the CANbus Wheel-Based Vehicle Speed.
+This summarizes the correlation results for timestamp adjustments in the Driver ID datasets. The correlations were calculated using the `FixVBOXTimestamps.py` script, with the maximum correlation and the corresponding shift (in seconds) for the VBOX GPS Speed to match the CANbus Wheel-Based Vehicle Speed.
 
 ## Group 1
 - **S01:** Correlation: 0.99987, Shift: 10.21 s
