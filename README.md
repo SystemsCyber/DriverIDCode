@@ -1,7 +1,7 @@
-# ORNL Driver Identification Data Processing Repository
+# Driver Identification Data Processing Repository
 
 ## Overview
-This repository contains the code used to generate the ORNL Driver Identification Dataset. The dataset is created by processing **raw data files** collected from **50 participants** driving a **2014 Kenworth T270 Class 6** truck. The code processes the data into three different formats:
+This repository contains the code used to generate the Driver Identification Dataset. The dataset is created by processing **raw data files** collected from **50 participants** driving a **2014 Kenworth T270 Class 6** truck. The code processes the data into three different formats:
 1. **High-resolution SQLite database**
 2. **High-resolution CSV files**
 3. **Downsampled CSV files** (includes additional variables and survey answers)
